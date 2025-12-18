@@ -1,0 +1,32 @@
+    body { font-family: 'Courier New', Courier, monospace; background: #333; padding: 20px; color: #000; }
+
+        #struk-area {
+            width: 80mm; 
+            background: #fff;
+            padding: 10px 20px;
+            margin: 0 auto;
+            border: 1px solid #eee;
+        }
+
+        .text-center { text-align: center; }
+        .text-right { text-align: right; }
+
+        .brand { 
+            color: #FF7518; 
+            font-size: 20px; 
+            font-weight: bold; 
+            margin: 0;
+            letter-spacing: 1px;
+        }
+        
+        .divider-bold { border-top: 2px double #000; margin: 5px 0; }
+        .divider-thin { border-top: 1px dashed #000; margin: 5px 0; }
+        
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .col-item { width: 45%; }
+        .col-jumlah { width: 15%; text-align: center; }
+        .col-total { width: 40%; text-align: right; }
+        
+        .footer-msg { font-size: 11px; margin-top: 15px; font-style: italic; }
+        
+        @media print { .no-print { display: none; } }
